@@ -16,6 +16,7 @@ function App() {
                     <img src={aPhoto} className="logo react" alt="React logo" />
                     <img src={ePhoto} className="logo react" alt="React logo" />
             </div>
+         
 
         </>
     );
