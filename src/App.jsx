@@ -11,7 +11,7 @@ function App() {
     const groupIntroduction = {
         "Jianping": "Hi! I am Jianping, also go by Alan. Currently a senior majoring in Computer Science. Hope to know you more!",
         "Yiming": "Hi! I am Yujin Kim. I am a senior majoring in Computer Science. Nice to meet you!",
-        "Ardit": "Hi! I am Alan Chen. I am a senior majoring in Computer Science. Looking forward to working with you!",
+        "Ardit": "Hi! I am Ardit Rexha. I am a Junior majoring in Computer Science. Looking forward to working with you!",
         "Emmanuel": "Hi! I am Eunice Lee. I am a senior majoring in Computer Science. Excited to collaborate!",
         "default": "Click on our avatar to know more about us!"
     }
