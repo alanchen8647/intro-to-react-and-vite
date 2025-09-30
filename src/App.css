@@ -6,8 +6,10 @@
 }
 
 .logo {
-  height: 6em;
+  height: 10em !important;
+  width: 10em !important;
   padding: 1.5em;
+  object-fit: cover;
   will-change: filter;
   transition: filter 300ms;
   border-radius: 50%;

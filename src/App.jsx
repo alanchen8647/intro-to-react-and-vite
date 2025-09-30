@@ -24,13 +24,12 @@ function App() {
             <div className="card">
                 <a onClick={e=>setIntro("Jianping")}><img src={jPhoto} className="logo react" alt="Jianping's photo" /></a>
                 <a onClick={e=>setIntro("Yiming")}><img src={yPhoto} className="logo react" alt="Yiming's photo" /></a>
-                <a onClick={e=>setIntro("Ardit")}><img src={aPhoto} className="logo react" alt="Ardit's photo" /></a>
-                <a onClick={e=>setIntro("Emmanuel")}><img src={ePhoto} className="logo react" alt="Emmanuel's photo" width="100" height="110"/></a>
+                <a onClick={e=>setIntro("Ardit")}><img src={aPhoto} className="logo react" alt="Ardit's photo"  /></a>
+                <a onClick={e=>setIntro("Emmanuel")}><img src={ePhoto} className="logo react" alt="Emmanuel's photo"/></a>
             </div>
             <div className="card">
                 <p>{groupIntroduction[intro]}</p>
                 {intro !== "default" && <Link to={`/${intro.toLowerCase()}`}>Learn more about {intro}</Link>}
-                
             </div>
         </>
     );
