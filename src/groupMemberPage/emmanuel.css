@@ -1,3 +1,7 @@
+.emmanuelPage {
+  color: black;
+}
+
 .profilePic {
   width: 500px;
   height: 500px;
@@ -5,4 +9,22 @@
   border-radius: 250px;
   display: block; 
   margin: 0 auto;
+}
+
+.heading {
+  font-size: 60px;
+  margin-bottom: 0;
+}
+
+.subtitlesContainer {
+  display: flex;
+  justify-content: space-around;
+  font-size: 20px; 
+  color: rgb(106, 106, 106);
+  border-bottom: 2px solid rgb(201, 200, 200); 
+}
+
+.backgroundContainer {
+  padding-bottom: 10px;
+  border-bottom: 2px solid rgb(201, 200, 200);;
 }
