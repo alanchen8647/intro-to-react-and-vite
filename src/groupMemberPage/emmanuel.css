@@ -1,5 +1,6 @@
 .emmanuelPage {
   color: black;
+  font-family: arial;
 }
 
 .profilePic {
@@ -18,13 +19,66 @@
 
 .subtitlesContainer {
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
+  gap: 30px;
   font-size: 20px; 
   color: rgb(106, 106, 106);
   border-bottom: 2px solid rgb(201, 200, 200); 
 }
 
+.sectionHeading {
+  font-size: 30px;  
+  text-decoration: underline;
+}
+
 .backgroundContainer {
+  padding-bottom: 30px;
+  border-bottom: 2px solid rgb(201, 200, 200);
+  transition: background-color 0.50s;
+}
+
+.backgroundContainer:hover {
+  background-color: rgba(173, 216, 230, 0.327);
+  
+}
+
+.backgroundDescription {
+  width: 520px;
+  font-size: 20px;
+  margin: 0 auto;
+}
+
+.skillsContainer {
+  font: 20px;
   padding-bottom: 10px;
-  border-bottom: 2px solid rgb(201, 200, 200);;
+  border-bottom: 2px solid rgb(201, 200, 200);
+  transition: background-color 0.50s;
+}
+
+.skillsContainer:hover {
+  background-color: rgba(255, 197, 122, 0.25);
+}
+
+.skill {
+  text-align: left;
+  font-size: 25px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.skillDescription {
+  width: 700px;
+  font-size: 20px; 
+  margin: 0 auto;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.learnContainer {
+  text-align: center;
+  transition: background-color 0.50s;
+}
+
+.learnContainer:hover {
+  background-color: rgba(144, 238, 144, 0.327);
 }
