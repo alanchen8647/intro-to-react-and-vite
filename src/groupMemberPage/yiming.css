@@ -1,0 +1,123 @@
+/* 页面基础：全局左对齐 */
+.yiming-page {
+    max-width: 750px;
+    margin: 0 auto;
+    padding: 24px;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+.yiming-page p,
+.yiming-page li {
+    text-align: left;
+}
+
+.divider {
+    margin: 24px 0;
+    border: none;
+    border-top: 1px solid #e5e5e5;
+}
+
+/* 顶部：左图右文，响应式 */
+.yiming-header {
+    display: grid;
+    grid-template-columns: 260px 1fr; /* 图 260px，右侧自适应 */
+    gap: 24px;
+    align-items: start;
+}
+
+@media (max-width: 720px) {
+    .yiming-header {
+        grid-template-columns: 1fr; /* 窄屏垂直堆叠 */
+    }
+}
+
+/* 图片区域 */
+.yiming-photo-wrap {
+    margin: 0;
+}
+
+.yiming-photo {
+    width: 100%;
+    max-width: 260px;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+    display: block;
+}
+
+.yiming-caption {
+    text-align: center;
+    font-size: 0.9em;
+    color: #666;
+    margin-top: 6px;
+}
+
+/* 文本区域 */
+.yiming-intro {
+    text-align: left;
+}
+.yiming-title {
+    margin: 0 0 4px;
+    font-size: 2rem;
+}
+.yiming-subtitle {
+    margin: 0 0 14px;
+    color: #555;
+}
+
+/* 区块通用 */
+.yiming-section {
+    margin: 16px 0 12px;
+}
+.yiming-section h3 {
+    margin: 0 0 8px;
+}
+
+/* 列表要点 */
+.bullet {
+    margin: 6px 0 0 8px; /* 左缩进更清晰 */
+}
+.bullet li {
+    margin: 6px 0;
+}
+
+.exp-list {
+    display: grid; /* 也可以用 block，这里保留 grid 便于以后扩展 */
+    grid-template-columns: 1fr;
+    gap: 14px;
+}
+
+/* 经历卡片 */
+.exp-card {
+    border: 1px solid #eee;
+    border-radius: 12px;
+    padding: 14px 16px;
+    background: #fff;
+    margin-top: 12px; /* 增加卡片与上方元素的间距 */
+}
+
+.exp-head {
+    display: flex;
+    gap: 12px;
+    justify-content: space-between;
+    align-items: baseline;
+    margin-bottom: 8px;
+    flex-wrap: wrap; /* 避免窄屏挤爆 */
+}
+
+.exp-company {
+    font-weight: 600;
+    text-align: left;
+}
+.exp-dates {
+    color: #666;
+    font-size: 0.95em;
+    margin-top: 2px; /* 缩小与上方元素的间隔 */
+}
+
+.yiming-footer {
+    margin-top: 24px;
+    text-align: center; /* 只 footer 居中，其余保持左对齐 */
+    color: #666;
+    font-size: 0.9rem;
+}
