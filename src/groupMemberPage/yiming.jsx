@@ -1,9 +1,20 @@
 import "../groupMemberPage/yiming.css";
 import myPhoto from "../assets/y.jpg";
+import { useNavigate } from "react-router-dom"; // ① 必须从 react-router-dom 引入
 
 export default function Yiming() {
+    const navigate = useNavigate(); // ② 必须在组件函数内部调用
+
     return (
         <div className="yiming-page">
+            {/* 返回按钮 */}
+            <button
+                type="button" // ③ 避免在 form 中触发 submit
+                className="back-btn"
+                onClick={() => navigate("/")} // 固定跳到首页
+            >
+                ← Back
+            </button>
             {/* 顶部 */}
             <header className="yiming-header">
                 <figure className="yiming-photo-wrap">
@@ -36,10 +47,15 @@ export default function Yiming() {
                     <p>
                         This semester I’m at <strong>Baruch College</strong>,
                         New York. First time living in NYC — enjoying the mix of
-                        academics, art and culture in such a dynamic city! Loving it so far, and planning to explore more.
+                        academics, art and culture in such a dynamic city!
+                        Loving it so far, and planning to explore more.
                     </p>
-                    <p> I am taking the CIS 4160 class since I really love computer science and I want to study 
-                        this more "applied" side of tech! </p>
+                    <p>
+                        {" "}
+                        I am taking the CIS 4160 class since I really love
+                        computer science and I want to study this more "applied"
+                        side of tech!{" "}
+                    </p>
                 </div>
             </header>
 
