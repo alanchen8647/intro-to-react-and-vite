@@ -1,11 +1,21 @@
 import react from 'react';
 import ePhoto from "../assets/e.jpg"; 
 import "./emmanuel.css";
+import { useNavigate } from "react-router-dom";
 
 function Emmanuel() {
+    const navigate = useNavigate();
+
     return (
         <>
             <div className="emmanuelPage">
+                <button
+                type="button" 
+                className="back-btn"
+                onClick={() => navigate("/")} 
+                >
+                    <span className="arrow">&larr;</span> Back
+                </button>
                 <div className="profileContainer">
                     <img className="profilePic" src={ePhoto}></img>
                 </div>
