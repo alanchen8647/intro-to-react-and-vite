@@ -7,6 +7,24 @@
   font-size: 20px;
 }
 
+.redSuit {
+  transition: color 0.25s;
+  cursor: pointer;
+}
+
+.redSuit:hover {
+  color: red; 
+}
+
+.blackSuit {
+  transition: color 0.25s;
+  cursor: pointer; 
+}
+
+.blackSuit:hover {
+  color: black; 
+}
+
 .profilePic {
   width: 500px;
   height: 500px;

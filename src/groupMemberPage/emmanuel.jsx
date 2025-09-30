@@ -22,11 +22,13 @@ function Emmanuel() {
                 <div className="infoContainer">
                     <h1 className="heading">Emmanuel Oyelade</h1>
                     <div className="subtitlesContainer">
+                        <h2 className="redSuit">&hearts;</h2>
                         <h2 className="subtitle">Computer Science</h2>
-                        <h2>&bull;</h2>
+                        <h2 className="blackSuit">&spades;</h2>
                         <h2 className="subtitle">Senior</h2>
-                        <h2>&bull;</h2>
+                        <h2 className="redSuit">&diams;</h2>
                         <h2 className="subtitle">Baruch</h2>
+                        <h2 className="blackSuit">&clubs;</h2>
                     </div>
                     <div className="backgroundContainer">
                         <h2 className="sectionHeading">My Background</h2>
