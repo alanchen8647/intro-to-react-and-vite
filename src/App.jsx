@@ -1,5 +1,5 @@
 import jPhoto from "./assets/j.jpg";
-import yPhoto from "./assets/y.png";
+import yPhoto from "./assets/y.jpg";
 import aPhoto from "./assets/a.jpg";
 import ePhoto from "./assets/e.jpg";
 import { useState , useEffect } from "react";
@@ -10,7 +10,7 @@ function App() {
     const [intro, setIntro] = useState("default");
     const groupIntroduction = {
         "Jianping": "Hi! I am Jianping, also go by Alan. Currently a senior majoring in Computer Science. Hope to know you more!",
-        "Yiming": "Hi! I am Yujin Kim. I am a senior majoring in Computer Science. Nice to meet you!",
+        "Yiming": "Hi! I am Yiming. I am a exchange student from UIBE, I'm a senior majoring in Financial Engineering. Nice to meet you!",
         "Ardit": "Hi! I am Ardit Rexha. I am a Junior majoring in Computer Science. Looking forward to working with you!",
         "Emmanuel": "Hi! I am Emmanuel Oyelade. I am a senior majoring in Computer Science. Excited to collaborate!",
         "default": "Click on our avatar to know more about us!"
