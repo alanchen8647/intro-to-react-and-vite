@@ -41,6 +41,18 @@ function Emmanuel() {
                             possible while I am still in Baruch.
                         </p>
                     </div>
+                    <div className="hobbiesContainer">
+                        <h2 className="sectionHeading">My Hobbies</h2>
+                        <ul>
+                            <li>Watching interesting videos about math history.</li>
+                            <li>
+                            Looking at pictures and videos of ancient architecture 
+                            from different cultures.
+                            </li>
+                            <li>Playing games related to puzzles (e.g. Ace Attorney, Chess, etc.).</li>
+                            <li>Teaching myself new programming skills.</li>
+                        </ul>
+                    </div>
                     <div className="skillsContainer">
                         <h2 className="sectionHeading">Skills</h2>
                         <p className="skill">1. Beginner HTML:</p>

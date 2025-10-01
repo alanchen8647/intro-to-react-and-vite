@@ -70,9 +70,24 @@
   margin: 0 auto;
 }
 
+.hobbiesContainer {
+  border-bottom: 2px solid rgb(201, 200, 200);
+  padding-bottom: 30px;
+  transition: background-color 0.50s;
+}
+
+.hobbiesContainer:hover {
+  background-color: rgba(238, 130, 238, 0.3);
+}
+
+li {
+  text-align: left;
+  font-size: 22px;
+}
+
 .skillsContainer {
   font: 20px;
-  padding-bottom: 10px;
+  padding-bottom: 30px;
   border-bottom: 2px solid rgb(201, 200, 200);
   transition: background-color 0.50s;
 }
