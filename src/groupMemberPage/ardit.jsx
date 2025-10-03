@@ -8,15 +8,13 @@ function Ardit() {
                 .ardit-background {
                     min-height: 100vh;
                     width: 100vw;
-                    background: 
-                        repeating-linear-gradient(135deg, #e0eafc 0px, #e0eafc 40px, #cfdef3 40px, #cfdef3 80px),
-                        linear-gradient(135deg, #e0eafc 0%, #cfdef3 100%);
+                    background: linear-gradient(135deg, #f8fafc 0%, #e0eafc 100%);
                     display: flex;
                     align-items: center;
                     justify-content: center;
                 }
                 .ardit-card {
-                    background: rgba(255,255,255,0.95);
+                    background: rgba(255,255,255,0.97);
                     border-radius: 18px;
                     box-shadow: 0 8px 32px rgba(0,0,0,0.12);
                     padding: 40px 32px;
